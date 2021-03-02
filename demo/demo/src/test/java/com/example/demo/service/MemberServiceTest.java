@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.Optional;
 
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import com.example.demo.domain.Member;
@@ -13,9 +14,15 @@ import com.example.demo.repository.MemoryMemberRepository;
 
 class MemberServiceTest {
 	
-	MemberService memberService = new MemberService();
 	
-	MemoryMemberRepository memoryMemberRepository= new MemoryMemberRepository();
+	MemberService memberService;
+	MemoryMemberRepository memoryMemberRepository;
+	
+	@BeforeEach
+	void 초기설정() {
+		memoryMemberRepository = new MemoryMemberRepository();
+        memberService = new MemberService(memoryMemberRepository);
+	}
 	
 	@AfterEach
 	void 클리어() {
