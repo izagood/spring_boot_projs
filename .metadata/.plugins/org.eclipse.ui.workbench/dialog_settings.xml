@@ -8,7 +8,6 @@
 		</list>
 	</section>
 	<section name="PreferencesImportWizard">
-		<item key="" value="C:\Dev\workspace\myNoteBook\Programming\eclipse\preferences\202012\jdk18_d2Font.epf"/>
 		<item key="" value="C:\Dev\workspace\myNoteBook\Programming\eclipse\preferences\202012\jdk11_d2Font.epf"/>
 		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
 			<item value="C:\Dev\workspace\myNoteBook\Programming\eclipse\preferences\202012\jdk11_d2Font.epf"/>
@@ -16,5 +15,9 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.wst.html.ui.internal.wizard.NewHTMLWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
 	</section>
 </section>
