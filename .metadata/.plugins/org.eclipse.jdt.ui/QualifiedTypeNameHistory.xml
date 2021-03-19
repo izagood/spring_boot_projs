@@ -24,10 +24,17 @@
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="hello.core.member.MemberRepository"/>
-    <fullyQualifiedTypeName name="hello.core.member.MemoryMemberRepository"/>
+    <fullyQualifiedTypeName name="hello.core.order.Order"/>
+    <fullyQualifiedTypeName name="hello.core.discount.DiscountPolicy"/>
     <fullyQualifiedTypeName name="hello.core.member.Member"/>
     <fullyQualifiedTypeName name="hello.core.member.Grade"/>
-    <fullyQualifiedTypeName name="hello.core.member.MemberServiceImpl"/>
-    <fullyQualifiedTypeName name="hello.core.member.MemberService"/>
     <fullyQualifiedTypeName name="org.assertj.core.api.Assertions"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.DisplayName"/>
+    <fullyQualifiedTypeName name="hello.core.discount.RateDiscountPolicy"/>
+    <fullyQualifiedTypeName name="hello.core.member.MemberService"/>
+    <fullyQualifiedTypeName name="hello.core.member.MemberServiceImpl"/>
+    <fullyQualifiedTypeName name="hello.core.order.OrderService"/>
+    <fullyQualifiedTypeName name="hello.core.order.OrderServiceImpl"/>
+    <fullyQualifiedTypeName name="hello.core.member.MemoryMemberRepository"/>
+    <fullyQualifiedTypeName name="hello.core.discount.FixDiscountPolicy"/>
 </qualifiedTypeNameHistroy>
