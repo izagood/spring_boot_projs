@@ -21,4 +21,13 @@
     <fullyQualifiedTypeName name="com.example.demo.aop.TimeTraceAop"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Around"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="hello.core.member.MemberRepository"/>
+    <fullyQualifiedTypeName name="hello.core.member.MemoryMemberRepository"/>
+    <fullyQualifiedTypeName name="hello.core.member.Member"/>
+    <fullyQualifiedTypeName name="hello.core.member.Grade"/>
+    <fullyQualifiedTypeName name="hello.core.member.MemberServiceImpl"/>
+    <fullyQualifiedTypeName name="hello.core.member.MemberService"/>
+    <fullyQualifiedTypeName name="org.assertj.core.api.Assertions"/>
 </qualifiedTypeNameHistroy>
