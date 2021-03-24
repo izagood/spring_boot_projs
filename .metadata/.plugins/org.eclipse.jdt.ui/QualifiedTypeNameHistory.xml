@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-    <fullyQualifiedTypeName name="com.example.demo.service.MemberService"/>
-    <fullyQualifiedTypeName name="com.example.demo.repository.MemberRepository"/>
     <fullyQualifiedTypeName name="com.example.demo.repository.MemoryMemberRepository"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
     <fullyQualifiedTypeName name="com.example.demo.controller.MemberForm"/>
@@ -16,7 +11,6 @@
     <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
     <fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
     <fullyQualifiedTypeName name="com.example.demo.aop.TimeTraceAop"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Around"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -25,11 +19,7 @@
     <fullyQualifiedTypeName name="java.lang.Appendable"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
     <fullyQualifiedTypeName name="hello.core.order.OrderService"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.NoSuchBeanDefinitionException"/>
-    <fullyQualifiedTypeName name="org.assertj.core.api.Assertions"/>
     <fullyQualifiedTypeName name="hello.core.member.MemoryMemberRepository"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="hello.core.discount.FixDiscountPolicy"/>
     <fullyQualifiedTypeName name="hello.core.discount.DiscountPolicy"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.NoUniqueBeanDefinitionException"/>
@@ -37,16 +27,37 @@
     <fullyQualifiedTypeName name="org.springframework.beans.factory.config.BeanDefinition"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
     <fullyQualifiedTypeName name="hello.core.singleton.SingletonService"/>
-    <fullyQualifiedTypeName name="hello.core.member.MemberService"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.DisplayName"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="hello.core.singleton.StatefulService"/>
     <fullyQualifiedTypeName name="hello.core.order.Order"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
     <fullyQualifiedTypeName name="hello.core.AppConfig"/>
     <fullyQualifiedTypeName name="hello.core.member.MemberServiceImpl"/>
     <fullyQualifiedTypeName name="hello.core.order.OrderServiceImpl"/>
     <fullyQualifiedTypeName name="hello.core.member.MemberRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="hello.core.scan.AutoAppConfigTest"/>
+    <fullyQualifiedTypeName name="hello.core.AutoAppConfig"/>
+    <fullyQualifiedTypeName name="hello.core.member.MemberService"/>
+    <fullyQualifiedTypeName name="org.assertj.core.api.Assertions"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Documented"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.FilterType"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.test.autoconfigure.filter.TypeExcludeFilters"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan.Filter"/>
+    <fullyQualifiedTypeName name="hello.core.scan.filter.MyIncludeComponent"/>
+    <fullyQualifiedTypeName name="hello.core.scan.filter.MyExcludeComponent"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="hello.core.scan.filter.BeanA"/>
+    <fullyQualifiedTypeName name="hello.core.scan.filter.BeanB"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.NoSuchBeanDefinitionException"/>
 </qualifiedTypeNameHistroy>
