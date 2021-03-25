@@ -1,10 +1,10 @@
 package hello.core.beanfind;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.Assert.assertThrows;
 
 import java.util.Map;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.NoUniqueBeanDefinitionException;
@@ -25,7 +25,7 @@ public class ApplicationContextExtendsFindTest {
 	@DisplayName("부모 타입으로 조회시, 자식이 둘 이상 있으면, 중복 오류가 발생한다.")
 	void findBeanParentTypeDuplicate() {
 //		DiscountPolicy discountPolicy = ac.getBean(DiscountPolicy.class);
-		assertThrows(NoUniqueBeanDefinitionException.class, () -> ac.getBean(DiscountPolicy.class));
+		Assertions.assertThrows(NoUniqueBeanDefinitionException.class, () -> ac.getBean(DiscountPolicy.class));
 	}
 	
 	@Test
