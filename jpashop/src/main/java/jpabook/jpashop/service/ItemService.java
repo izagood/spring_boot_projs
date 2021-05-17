@@ -21,6 +21,24 @@ public class ItemService {
 		itemRepository.save(item);
 	}
 	
+	@Transactional
+	public void updateItem(Long itemId, String name, int price, int stockQuantity) {
+		Item findItem = itemRepository.findOne(itemId);
+		findItem.setPrice(price);
+		findItem.setName(name);
+		findItem.setStockQuantity(stockQuantity);
+		
+	}
+	
+//	@Transactional
+//	public Item updateItem(Long itemId, Book param) { // merge 동작방식과 같다.
+//		Item findItem = itemRepository.findOne(itemId);
+//		findItem.setPrice(param.getPrice());
+//		findItem.setName(param.getName());
+//		findItem.setStockQuantity(param.getStockQuantity());
+//		return findItem;
+//	}
+	
 	public List<Item> findItems(){
 		return itemRepository.findAll();
 	}
@@ -28,5 +46,6 @@ public class ItemService {
 	public Item findOne(Long itemId) {
 		return itemRepository.findOne(itemId);
 	}
+
 	
 }
