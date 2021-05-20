@@ -7,7 +7,7 @@
   
   <properties>
 		<java.version>11</java.version>
-	</properties>
+  </properties>
   
   <dependencies>
   <!-- JPA 하이버네이트 -->
