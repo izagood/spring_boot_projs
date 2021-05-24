@@ -3,13 +3,18 @@ package jpabook.domain;
 import java.util.List;
 
 import javax.persistence.Column;
+import javax.persistence.DiscriminatorColumn;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
 import javax.persistence.OneToMany;
 
 @Entity
-public class Item {
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name = "DTYPE") // name = "DTYPE" 기본
+public abstract class Item extends BaseEntity {
 	
 	@Id @GeneratedValue
 	@Column(name = "item_id")
